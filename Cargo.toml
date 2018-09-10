@@ -1,0 +1,6 @@
+[package]
+name = "prolog-target"
+version = "0.1.0"
+authors = ["Gavin Mendel-Gleason <gavin.mendel.gleason@gmail.com>"]
+
+[dependencies]
