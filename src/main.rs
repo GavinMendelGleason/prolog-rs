@@ -42,7 +42,7 @@ fn arglen(args: &Args) -> u32 {
 fn extend(env: Box<Env>, x: Box<Var>, v: Box<Term>) -> Box<Env> {
     Box::new(Env::cons_eq(x,v,env))        
 }
-/*
+
 fn fun_match(f: Box<Function>, g: Box<Function>) -> bool {
     f.name == g.name && arglen(&f.args) == arglen(&g.args)
 }
@@ -146,7 +146,7 @@ fn unify(env: Box<Env>, t: Box<Term>, s: Box<Term>) -> Option<Box<Env>> {
             }
     }
 }
-*/
+
 
 fn show_var(var: &Var){
     print!("{}",var.name);
